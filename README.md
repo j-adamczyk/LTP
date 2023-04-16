@@ -1,6 +1,6 @@
 # Local Topological Profile (LTP)
 
-Code for paper "Strengthening topological baselines for graph classification using Local Topological Profile" J. Adamczyk, W. Czech. In this paper, we present Local Topological Profile (LTP), method optimizing and extending popular Local Degree Profile (LDP) baseline for topological graph classification.
+Code for paper "Strengthening structural baselines for graph classification using Local Topological Profile" J. Adamczyk, W. Czech. In this paper, we present Local Topological Profile (LTP), method optimizing and extending popular Local Degree Profile (LDP) baseline for topological graph classification.
 
 To reproduce results from the paper, refer to `main.py` and function `perform_experiment()` in `perform_experiment.py`. Change values as needed. Datasets are downloaded automatically upon the first use.
 
