@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
     for dataset_name in DATASET_NAMES:
         print(dataset_name)
-        perform_experiment(
+        acc_mean, acc_stddev = perform_experiment(
             dataset_name=dataset_name,
             degree_sum=args.degree_sum,
             shortest_paths=args.shortest_paths,
@@ -172,6 +172,4 @@ if __name__ == "__main__":
             use_features_cache=args.use_features_cache,
             verbose=args.verbose,
         )
-
-        acc_mean, acc_stddev = perform_experiment(dataset_name)
         print(f"Accuracy: {100 * acc_mean:.2f} +- {100 * acc_stddev:.2f}")
